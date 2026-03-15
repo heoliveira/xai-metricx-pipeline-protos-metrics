@@ -1,0 +1,184 @@
+|--- Calcium non-ionized <= 8.29
+|   |--- BUN <= 14.02
+|   |   |--- Temperature Fahrenheit <= 98.79
+|   |   |   |--- Non Invasive Blood Pressure diastolic <= 64.06
+|   |   |   |   |--- PTT <= 28.31
+|   |   |   |   |   |--- SpO2 Desat Limit <= 85.85
+|   |   |   |   |   |   |--- value: [0.38]
+|   |   |   |   |   |--- SpO2 Desat Limit >  85.85
+|   |   |   |   |   |   |--- value: [0.24]
+|   |   |   |   |--- PTT >  28.31
+|   |   |   |   |   |--- Heart Rate <= 75.04
+|   |   |   |   |   |   |--- value: [0.37]
+|   |   |   |   |   |--- Heart Rate >  75.04
+|   |   |   |   |   |   |--- value: [0.50]
+|   |   |   |--- Non Invasive Blood Pressure diastolic >  64.06
+|   |   |   |   |--- PTT <= 35.02
+|   |   |   |   |   |--- SpO2 Desat Limit <= 87.88
+|   |   |   |   |   |   |--- value: [0.28]
+|   |   |   |   |   |--- SpO2 Desat Limit >  87.88
+|   |   |   |   |   |   |--- value: [0.17]
+|   |   |   |   |--- PTT >  35.02
+|   |   |   |   |   |--- Platelet Count <= 165.75
+|   |   |   |   |   |   |--- value: [0.49]
+|   |   |   |   |   |--- Platelet Count >  165.75
+|   |   |   |   |   |   |--- value: [0.32]
+|   |   |--- Temperature Fahrenheit >  98.79
+|   |   |   |--- SpO2 Desat Limit <= 87.98
+|   |   |   |   |--- PTT <= 35.58
+|   |   |   |   |   |--- Anion gap <= 9.52
+|   |   |   |   |   |   |--- value: [0.39]
+|   |   |   |   |   |--- Anion gap >  9.52
+|   |   |   |   |   |   |--- value: [0.53]
+|   |   |   |   |--- PTT >  35.58
+|   |   |   |   |   |--- BUN <= 9.93
+|   |   |   |   |   |   |--- value: [0.57]
+|   |   |   |   |   |--- BUN >  9.93
+|   |   |   |   |   |   |--- value: [0.70]
+|   |   |   |--- SpO2 Desat Limit >  87.98
+|   |   |   |   |--- Platelet Count <= 169.19
+|   |   |   |   |   |--- value: [0.49]
+|   |   |   |   |--- Platelet Count >  169.19
+|   |   |   |   |   |--- value: [0.33]
+|   |--- BUN >  14.02
+|   |   |--- Anion gap <= 10.52
+|   |   |   |--- HCO3 (serum) <= 23.96
+|   |   |   |   |--- Chloride (serum) <= 109.63
+|   |   |   |   |   |--- Anion gap <= 9.59
+|   |   |   |   |   |   |--- value: [0.16]
+|   |   |   |   |   |--- Anion gap >  9.59
+|   |   |   |   |   |   |--- value: [0.29]
+|   |   |   |   |--- Chloride (serum) >  109.63
+|   |   |   |   |   |--- SpO2 Desat Limit <= 85.53
+|   |   |   |   |   |   |--- value: [0.54]
+|   |   |   |   |   |--- SpO2 Desat Limit >  85.53
+|   |   |   |   |   |   |--- value: [0.30]
+|   |   |   |--- HCO3 (serum) >  23.96
+|   |   |   |   |--- SpO2 Desat Limit <= 85.93
+|   |   |   |   |   |--- Heart Rate <= 71.82
+|   |   |   |   |   |   |--- value: [0.34]
+|   |   |   |   |   |--- Heart Rate >  71.82
+|   |   |   |   |   |   |--- value: [0.55]
+|   |   |   |   |--- SpO2 Desat Limit >  85.93
+|   |   |   |   |   |--- Anion gap <= 8.38
+|   |   |   |   |   |   |--- value: [0.22]
+|   |   |   |   |   |--- Anion gap >  8.38
+|   |   |   |   |   |   |--- value: [0.41]
+|   |   |--- Anion gap >  10.52
+|   |   |   |--- Potassium (serum) <= 4.20
+|   |   |   |   |--- Respiratory Rate <= 19.01
+|   |   |   |   |   |--- PTT <= 29.37
+|   |   |   |   |   |   |--- value: [0.45]
+|   |   |   |   |   |--- PTT >  29.37
+|   |   |   |   |   |   |--- value: [0.58]
+|   |   |   |   |--- Respiratory Rate >  19.01
+|   |   |   |   |   |--- Temperature Fahrenheit <= 98.85
+|   |   |   |   |   |   |--- value: [0.63]
+|   |   |   |   |   |--- Temperature Fahrenheit >  98.85
+|   |   |   |   |   |   |--- value: [0.74]
+|   |   |   |--- Potassium (serum) >  4.20
+|   |   |   |   |--- Calcium non-ionized <= 8.04
+|   |   |   |   |   |--- Non Invasive Blood Pressure diastolic <= 70.66
+|   |   |   |   |   |   |--- value: [0.58]
+|   |   |   |   |   |--- Non Invasive Blood Pressure diastolic >  70.66
+|   |   |   |   |   |   |--- value: [0.46]
+|   |   |   |   |--- Calcium non-ionized >  8.04
+|   |   |   |   |   |--- HCO3 (serum) <= 22.30
+|   |   |   |   |   |   |--- value: [0.35]
+|   |   |   |   |   |--- HCO3 (serum) >  22.30
+|   |   |   |   |   |   |--- value: [0.53]
+|--- Calcium non-ionized >  8.29
+|   |--- Hemoglobin <= 10.70
+|   |   |--- Anion gap <= 11.04
+|   |   |   |--- SpO2 Desat Limit <= 85.97
+|   |   |   |   |--- Non Invasive Blood Pressure diastolic <= 60.37
+|   |   |   |   |   |--- Anion gap <= 9.21
+|   |   |   |   |   |   |--- value: [0.29]
+|   |   |   |   |   |--- Anion gap >  9.21
+|   |   |   |   |   |   |--- value: [0.46]
+|   |   |   |   |--- Non Invasive Blood Pressure diastolic >  60.37
+|   |   |   |   |   |--- HCO3 (serum) <= 25.13
+|   |   |   |   |   |   |--- value: [0.19]
+|   |   |   |   |   |--- HCO3 (serum) >  25.13
+|   |   |   |   |   |   |--- value: [0.32]
+|   |   |   |--- SpO2 Desat Limit >  85.97
+|   |   |   |   |--- HCO3 (serum) <= 27.23
+|   |   |   |   |   |--- Platelet Count <= 140.75
+|   |   |   |   |   |   |--- value: [0.24]
+|   |   |   |   |   |--- Platelet Count >  140.75
+|   |   |   |   |   |   |--- value: [0.12]
+|   |   |   |   |--- HCO3 (serum) >  27.23
+|   |   |   |   |   |--- Anion gap <= 9.06
+|   |   |   |   |   |   |--- value: [0.17]
+|   |   |   |   |   |--- Anion gap >  9.06
+|   |   |   |   |   |   |--- value: [0.36]
+|   |   |--- Anion gap >  11.04
+|   |   |   |--- Platelet Count <= 149.97
+|   |   |   |   |--- Anion gap <= 17.07
+|   |   |   |   |   |--- SpO2 Desat Limit <= 87.95
+|   |   |   |   |   |   |--- value: [0.52]
+|   |   |   |   |   |--- SpO2 Desat Limit >  87.95
+|   |   |   |   |   |   |--- value: [0.39]
+|   |   |   |   |--- Anion gap >  17.07
+|   |   |   |   |   |--- WBC <= 11.88
+|   |   |   |   |   |   |--- value: [0.58]
+|   |   |   |   |   |--- WBC >  11.88
+|   |   |   |   |   |   |--- value: [0.69]
+|   |   |   |--- Platelet Count >  149.97
+|   |   |   |   |--- WBC <= 12.42
+|   |   |   |   |   |--- Temperature Fahrenheit <= 98.70
+|   |   |   |   |   |   |--- value: [0.31]
+|   |   |   |   |   |--- Temperature Fahrenheit >  98.70
+|   |   |   |   |   |   |--- value: [0.49]
+|   |   |   |   |--- WBC >  12.42
+|   |   |   |   |   |--- SpO2 Desat Limit <= 87.99
+|   |   |   |   |   |   |--- value: [0.53]
+|   |   |   |   |   |--- SpO2 Desat Limit >  87.99
+|   |   |   |   |   |   |--- value: [0.35]
+|   |--- Hemoglobin >  10.70
+|   |   |--- BUN <= 21.05
+|   |   |   |--- SpO2 Desat Limit <= 87.99
+|   |   |   |   |--- Temperature Fahrenheit <= 98.68
+|   |   |   |   |   |--- WBC <= 11.28
+|   |   |   |   |   |   |--- value: [0.16]
+|   |   |   |   |   |--- WBC >  11.28
+|   |   |   |   |   |   |--- value: [0.26]
+|   |   |   |   |--- Temperature Fahrenheit >  98.68
+|   |   |   |   |   |--- Calcium non-ionized <= 8.87
+|   |   |   |   |   |   |--- value: [0.39]
+|   |   |   |   |   |--- Calcium non-ionized >  8.87
+|   |   |   |   |   |   |--- value: [0.25]
+|   |   |   |--- SpO2 Desat Limit >  87.99
+|   |   |   |   |--- Temperature Fahrenheit <= 98.81
+|   |   |   |   |   |--- Platelet Count <= 154.47
+|   |   |   |   |   |   |--- value: [0.17]
+|   |   |   |   |   |--- Platelet Count >  154.47
+|   |   |   |   |   |   |--- value: [0.07]
+|   |   |   |   |--- Temperature Fahrenheit >  98.81
+|   |   |   |   |   |--- Non Invasive Blood Pressure diastolic <= 70.30
+|   |   |   |   |   |   |--- value: [0.27]
+|   |   |   |   |   |--- Non Invasive Blood Pressure diastolic >  70.30
+|   |   |   |   |   |   |--- value: [0.16]
+|   |   |--- BUN >  21.05
+|   |   |   |--- Non Invasive Blood Pressure diastolic <= 68.26
+|   |   |   |   |--- Heart Rate <= 72.74
+|   |   |   |   |   |--- Respiratory Rate <= 19.84
+|   |   |   |   |   |   |--- value: [0.26]
+|   |   |   |   |   |--- Respiratory Rate >  19.84
+|   |   |   |   |   |   |--- value: [0.41]
+|   |   |   |   |--- Heart Rate >  72.74
+|   |   |   |   |   |--- WBC <= 11.47
+|   |   |   |   |   |   |--- value: [0.39]
+|   |   |   |   |   |--- WBC >  11.47
+|   |   |   |   |   |   |--- value: [0.52]
+|   |   |   |--- Non Invasive Blood Pressure diastolic >  68.26
+|   |   |   |   |--- Temperature Fahrenheit <= 98.62
+|   |   |   |   |   |--- Platelet Count <= 141.90
+|   |   |   |   |   |   |--- value: [0.38]
+|   |   |   |   |   |--- Platelet Count >  141.90
+|   |   |   |   |   |   |--- value: [0.20]
+|   |   |   |   |--- Temperature Fahrenheit >  98.62
+|   |   |   |   |   |--- Phosphorous <= 3.98
+|   |   |   |   |   |   |--- value: [0.46]
+|   |   |   |   |   |--- Phosphorous >  3.98
+|   |   |   |   |   |   |--- value: [0.28]
