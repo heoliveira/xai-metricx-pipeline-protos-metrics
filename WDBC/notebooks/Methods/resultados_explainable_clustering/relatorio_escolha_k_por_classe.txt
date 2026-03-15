@@ -1,0 +1,12 @@
+=== Relatório: Seleção combinada de k (Silhouette + Elbow) ===
+
+[Classe 0] Silhouette máximo em k=10 (valor=0.4546). Candidatos por silhueta (tolerância 3.0% / 0.005): [10].
+Elbow: knee=2, low-gain=None, recomendado=2.
+Tamanho mínimo exigido: ≥ 5 por cluster. Candidatos após filtro: nenhum.
+Decisão: k_final=10 (fora do elbow por tamanho/silhueta) com silhueta=0.4546 e custo=71.70. Tamanhos dos clusters: [20, 6, 3, 2, 4, 3, 3, 7, 5, 7].
+
+[Classe 1] Silhouette máximo em k=8 (valor=0.1076). Candidatos por silhueta (tolerância 3.0% / 0.005): [2, 8, 9].
+Elbow: knee=2, low-gain=7, recomendado=2.
+Tamanho mínimo exigido: ≥ 5 por cluster. Candidatos após filtro: [2].
+Decisão: k_final=2 (respeitando elbow) com silhueta=0.1038 e custo=429.02. Tamanhos dos clusters: [41, 55].
+

@@ -1,0 +1,27 @@
+{
+  "threshold": 0.9,
+  "selected_features": [
+    "perimeter_worst",
+    "area_worst",
+    "concave_points_worst",
+    "radius_worst",
+    "concave_points_mean",
+    "concavity_mean",
+    "area_mean",
+    "concavity_worst",
+    "perimeter_mean",
+    "texture_worst"
+  ],
+  "importances": {
+    "perimeter_worst": 18.81,
+    "area_worst": 16.33,
+    "concave_points_worst": 15.89,
+    "radius_worst": 13.12,
+    "concave_points_mean": 13.06,
+    "concavity_mean": 4.25,
+    "area_mean": 2.67,
+    "concavity_worst": 2.6,
+    "perimeter_mean": 2.54,
+    "texture_worst": 1.9
+  }
+}

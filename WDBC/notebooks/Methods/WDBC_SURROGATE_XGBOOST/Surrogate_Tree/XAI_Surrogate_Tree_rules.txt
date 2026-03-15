@@ -1,0 +1,37 @@
+|--- radius_worst <= 16.80
+|   |--- concave_points_worst <= 0.14
+|   |   |--- area_se <= 34.81
+|   |   |   |--- perimeter_worst <= 102.40
+|   |   |   |   |--- texture_mean <= 22.26
+|   |   |   |   |   |--- concave_points_worst <= 0.11
+|   |   |   |   |   |   |--- value: [0.01]
+|   |   |   |   |   |--- concave_points_worst >  0.11
+|   |   |   |   |   |   |--- value: [0.02]
+|   |   |   |   |--- texture_mean >  22.26
+|   |   |   |   |   |--- value: [0.04]
+|   |   |   |--- perimeter_worst >  102.40
+|   |   |   |   |--- value: [0.09]
+|   |   |--- area_se >  34.81
+|   |   |   |--- value: [0.16]
+|   |--- concave_points_worst >  0.14
+|   |   |--- texture_mean <= 19.93
+|   |   |   |--- value: [0.30]
+|   |   |--- texture_mean >  19.93
+|   |   |   |--- value: [0.91]
+|--- radius_worst >  16.80
+|   |--- concavity_mean <= 0.07
+|   |   |--- value: [0.59]
+|   |--- concavity_mean >  0.07
+|   |   |--- concave_points_worst <= 0.15
+|   |   |   |--- value: [0.93]
+|   |   |--- concave_points_worst >  0.15
+|   |   |   |--- texture_worst <= 24.11
+|   |   |   |   |--- value: [0.98]
+|   |   |   |--- texture_worst >  24.11
+|   |   |   |   |--- area_se <= 43.73
+|   |   |   |   |   |--- value: [0.99]
+|   |   |   |   |--- area_se >  43.73
+|   |   |   |   |   |--- concave_points_worst <= 0.18
+|   |   |   |   |   |   |--- value: [0.99]
+|   |   |   |   |   |--- concave_points_worst >  0.18
+|   |   |   |   |   |   |--- value: [0.99]
