@@ -1,0 +1,5 @@
+"""Data sub-package for METRICX."""
+
+from .loaders import load_dataset
+
+__all__ = ["load_dataset"]
