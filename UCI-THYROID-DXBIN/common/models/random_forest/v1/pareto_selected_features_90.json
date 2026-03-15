@@ -1,0 +1,15 @@
+{
+  "threshold": 0.9,
+  "selected_features": [
+    "TBG_measured",
+    "on_thyroxine",
+    "sick",
+    "query_on_thyroxine"
+  ],
+  "importances": {
+    "TBG_measured": 55.67,
+    "on_thyroxine": 24.05,
+    "sick": 5.38,
+    "query_on_thyroxine": 5.34
+  }
+}

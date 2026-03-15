@@ -1,0 +1,43 @@
+{
+  "threshold": 0.9,
+  "selected_features": [
+    "T3",
+    "on_thyroxine",
+    "T3_measured",
+    "TSH",
+    "TSH_measured",
+    "referral_source",
+    "FTI",
+    "T4U",
+    "thyroid_surgery",
+    "TT4_measured",
+    "TT4",
+    "tumor",
+    "TBG_measured",
+    "sick",
+    "pregnant",
+    "on_antithyroid_meds",
+    "age",
+    "query_hyperthyroid"
+  ],
+  "importances": {
+    "T3": 14.18,
+    "on_thyroxine": 13.73,
+    "T3_measured": 9.26,
+    "TSH": 7.98,
+    "TSH_measured": 5.62,
+    "referral_source": 5.44,
+    "FTI": 4.97,
+    "T4U": 4.28,
+    "thyroid_surgery": 3.87,
+    "TT4_measured": 3.72,
+    "TT4": 3.16,
+    "tumor": 3.08,
+    "TBG_measured": 2.61,
+    "sick": 1.92,
+    "pregnant": 1.75,
+    "on_antithyroid_meds": 1.68,
+    "age": 1.64,
+    "query_hyperthyroid": 1.63
+  }
+}
