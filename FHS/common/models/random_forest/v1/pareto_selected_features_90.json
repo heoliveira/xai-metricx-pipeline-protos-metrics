@@ -1,0 +1,25 @@
+{
+  "threshold": 0.9,
+  "selected_features": [
+    "age",
+    "sysBP",
+    "totChol",
+    "BMI",
+    "diaBP",
+    "glucose",
+    "heartRate",
+    "cigsPerDay",
+    "male"
+  ],
+  "importances": {
+    "age": 20.72,
+    "sysBP": 15.41,
+    "totChol": 10.28,
+    "BMI": 10.11,
+    "diaBP": 9.22,
+    "glucose": 8.31,
+    "heartRate": 8.03,
+    "cigsPerDay": 5.72,
+    "male": 5.0
+  }
+}
