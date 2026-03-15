@@ -1,0 +1,19 @@
+{
+  "threshold": 0.9,
+  "selected_features": [
+    "age",
+    "bmi",
+    "avg_glucose_level",
+    "work_type",
+    "smoking_status",
+    "ever_married"
+  ],
+  "importances": {
+    "age": 48.04,
+    "bmi": 15.61,
+    "avg_glucose_level": 14.15,
+    "work_type": 5.84,
+    "smoking_status": 4.57,
+    "ever_married": 3.56
+  }
+}
