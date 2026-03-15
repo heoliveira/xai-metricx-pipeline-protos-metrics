@@ -1,0 +1,86 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data and large files
+# Ignore common dataset and processed data folders
+**/data/
+**/data/*
+*/raw/
+*/processed/
+
+# Model outputs and reports
+model_reports/
+clusters_reports/
+inspection_reports/
+results/
+reports/
+output/
+
+# Logs
+*.log
+logs/
+*.out
+*.err
+
+# Serialized models
+*.pkl
+*.joblib
+
+# Tabular and binary data
+*.csv
+*.parquet
+*.xlsx
+*.zip
+
+# Images and figures
+*.png
+*.jpg
+*.jpeg
+*.pdf
+
+# Jupyter checkpoints and temp
+*.ipynb_checkpoints
+
+# Python build artifacts
+build/
+dist/
+.eggs/
+*.egg-info/
+
+# Misc
+.DS_Store
+Thumbs.db
+
+
+*.bak
+inspection_reports/
+*.goutputstream-*
+*fix_fn_cell.json
+.ipynb_checkpoints/
+
+
+*.goutputstream-*
+*fix_fn_cell.json
+*.html
+.ipynb_checkpoints/
+
+*Copia*
+*ANTIGO*
+*tapa buraco*
+*PARA CONSULTA*
+*Levantamento Clusters*
