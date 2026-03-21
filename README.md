@@ -1,5 +1,6 @@
 # xai-metricx-pipeline-protos-metrics
 METRICX: Uma estratégia para seleção de métricas de interpretabilidade
+
 Descrição
 -----------
 METRICX reúne notebooks e scripts para executar experimentos de classificação e avaliar métodos post-hoc de interpretabilidade (LIME, SHAP, Anchor, PFI, Surrogate Trees). O repositório contém pipelines para treinar classificadores, gerar previsões e calcular métricas quantitativas que suportam comparações entre métodos e configurações.
@@ -48,7 +49,7 @@ As seguintes métricas são utilizadas para avaliar o desempenho dos classificad
 
 Métricas de interpretabilidade avaliadas
 ----------------------------------------
-Além das métricas de desempenho dos modelos, o framework METRICX calcula métricas quantitativas para avaliação das explicações geradas pelos métodos de interpretabilidade. Entre as principais métricas avaliadas estão:
+A estratégia de avaliação utiliza, naturalmente, as métricas internas de desempenho dos modelos, sendo elas essenciais para nos calculos das métricas quantitativas de interpretabilidade . Entre as métricas avaliadas estão:
 
 - Fidelity
 - Faithfulness
@@ -63,7 +64,7 @@ Além das métricas de desempenho dos modelos, o framework METRICX calcula métr
 - Sufficiency
 - Directional Soundness
 
-Essas métricas permitem avaliar propriedades importantes das explicações geradas, como fidelidade ao modelo original, robustez a pequenas perturbações, estabilidade das explicações e capacidade de representar adequadamente o comportamento do modelo.
+Essas permitem avaliar propriedades importantes das explicações geradas, como fidelidade ao modelo original, robustez a pequenas perturbações, estabilidade das explicações e capacidade de representar adequadamente o comportamento do modelo.
 
 Análise estatística dos resultados
 ----------------------------------
