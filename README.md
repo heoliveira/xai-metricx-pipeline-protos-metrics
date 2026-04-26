@@ -1,11 +1,11 @@
-# xai-metricx-pipeline-protos-metrics
-METRICX: Uma estratégia para seleção de métricas de interpretabilidade
+# xai-metrics-pipeline-selection
+Uma estratégia para seleção de métricas de interpretabilidade
 
 Descrição
 -----------
-METRICX reúne notebooks e scripts para executar experimentos de classificação e avaliar métodos post-hoc de interpretabilidade (LIME, SHAP, Anchor, PFI, Surrogate Trees). O repositório contém pipelines para treinar classificadores, gerar previsões e calcular métricas quantitativas que suportam comparações entre métodos e configurações.
+Estem repositorio reúne notebooks e scripts para executar experimentos de classificação e avaliar métodos post-hoc de interpretabilidade (LIME, SHAP, Anchor, PFI, Surrogate Trees). O repositório contém pipelines para treinar classificadores, gerar previsões e calcular métricas quantitativas que suportam comparações entre métodos e configurações.
 
-Este repositório corresponde a uma versão preliminar dos experimentos desenvolvidos no contexto da dissertação de mestrado em Ciência da Computação no DCC/UFMG. O objetivo é disponibilizar os pipelines experimentais, métodos de interpretabilidade e métricas utilizadas para avaliação quantitativa de explicações geradas por modelos de aprendizado de máquina.
+Este repositório corresponde a uma versão preliminar experimental desenvolvida no contexto da dissertação de mestrado em Ciência da Computação no DCC/UFMG. O objetivo é disponibilizar os pipelines experimentais, métodos de interpretabilidade e métricas utilizadas para avaliação quantitativa de explicações geradas por modelos de aprendizado de máquina.
 
 Datasets incluídos
 ------------------
